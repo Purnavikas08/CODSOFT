@@ -1,1 +1,101 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Purna Vikas Ventrapragada • Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg"></div>
+
+<header class="nav">
+  <a href="#" class="brand">PVV</a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="resume.pdf" class="btn">Resume</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="card glass">
+    <img src="assets/avatar.png" alt="Purna Vikas Ventrapragada" class="avatar">
+    <h1>Purna Vikas<br>Ventrapragada</h1>
+    <p class="tag">Web Developer • HTML • CSS • JavaScript</p>
+    <div class="cta">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="https://www.linkedin.com/in/purna-vikas-ventrapragada-aa2068357" class="btn" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container glass">
+    <h2>About</h2>
+    <p>I build clean, responsive web interfaces focused on clarity and speed. I enjoy turning ideas into usable products with simple structure, modern UI, and accessible code.</p>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="container glass">
+    <h2>Skills</h2>
+    <div class="grid">
+      <div class="pill">HTML5</div>
+      <div class="pill">CSS3</div>
+      <div class="pill">JavaScript</div>
+      <div class="pill">Responsive UI</div>
+      <div class="pill">Git & GitHub</div>
+      <div class="pill">VS Code</div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container glass">
+    <h2>Projects</h2>
+    <div class="cards">
+      <a class="proj" href="#" target="_blank">
+        <h3>Landing Page</h3>
+        <p>Modern single-page layout with grid, hero, and CTA.</p>
+        <span>View</span>
+      </a>
+      <a class="proj" href="#" target="_blank">
+        <h3>Calculator</h3>
+        <p>Basic calculator using HTML, CSS, and JavaScript.</p>
+        <span>View</span>
+      </a>
+      <a class="proj" href="#" target="_blank">
+        <h3>Portfolio</h3>
+        <p>Glassmorphism theme with aurora background.</p>
+        <span>View</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container glass">
+    <h2>Contact</h2>
+    <div class="contact">
+      <a href="mailto:ventrapragadapurnavikas@gmail.com">ventrapragadapurnavikas@gmail.com</a>
+      <a href="https://github.com/Purnavikas08" target="_blank">github.com/Purnavikas08</a>
+      <a href="https://www.linkedin.com/in/purna-vikas-ventrapragada-aa2068357" target="_blank">LinkedIn Profile</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer glass">
+  <p>© <span id="y"></span> Purna Vikas Ventrapragada • Built with HTML & CSS</p>
+</footer>
+
+<script>
+document.getElementById("y").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
