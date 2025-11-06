@@ -31,9 +31,21 @@ The purpose of this internship is to enhance my practical skills in **HTML, CSS,
 ## 📂 Folder Structure
 ```
 CODSOFT/ 
-├── TASK1/     # Portfolio Website 
-├── TASK2/     # Landing Page 
-├── TASK3/     # Calculator App 
+├── TASK1/     # Portfolio Website
+          ├── index.html
+          ├── styles.css
+          ├── script.js
+          └── README.md 
+├── TASK2/     # Landing Page
+          ├── index.html
+          ├── styles.css
+          ├── script.js
+          └── README.md
+├── TASK3/     # Calculator App
+          ├── index.html
+          ├── styles.css
+          ├── script.js
+          └── README.md 
 └── README.md  # You are here
 ```
 ---
