@@ -29,3 +29,40 @@ The purpose of this internship is to enhance my practical skills in **HTML, CSS,
 ---
 
 ## 📂 Folder Structure
+```
+CODSOFT/ 
+├── TASK1/     # Portfolio Website 
+├── TASK2/     # Landing Page 
+├── TASK3/     # Calculator App 
+└── README.md  # You are here
+```
+---
+---
+
+## 🔧 Technologies Used
+- HTML5  
+- CSS3  
+- JavaScript (ES6)  
+- Git & GitHub  
+- VS Code  
+
+> *(Higher Levels may include: React, Node.js, MongoDB, Express – if chosen)*
+
+---
+
+## 🎥 Demo Videos
+All project demos will be uploaded to **LinkedIn** with hashtags:  
+`#codsoft #webdevelopment #internship`
+
+---
+
+
+## 👨‍💻 Developer Information
+**Name:** Purna Vikas Ventrapragada  
+**GitHub:** https://github.com/Purnavikas08  
+**LinkedIn:** https://www.linkedin.com/in/purna-vikas-ventrapragada-aa2068357  
+**Email:** ventrapragadapurnavikas@gmail.com  
+
+---
+
+### ✨ *Code. Learn. Build. Improve.*
